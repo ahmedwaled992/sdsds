@@ -1,0 +1,463 @@
+/* ----------------------------------------------------------------
+                        [  Start  Reguler ]
+-----------------------------------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none !important;
+  /* list-style: none; */
+  font-family: "Nunito", sans-serif;
+}
+.clear {
+  clear: both;
+}
+a {
+  text-decoration: none ;
+}
+.containeer {
+  width: 94%;
+  
+  margin: auto;
+  display: flex;
+  margin-top: 20px;
+  /* justify-content: space-around; */
+}
+.containeeer {
+  width: 94%;
+  
+  margin: auto;
+  display: flex;
+
+}
+body {
+  height: 2500px;
+}
+/* ----------------------------------------------------------------
+                        [  First sec info on img  ]
+-------------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+                        [  First sec info on img  ]
+-------------------------------------------------------------------*/
+
+
+.heading-sec-home {
+  width: 100%;
+  height: 50px;
+  
+  padding: 15px;
+}
+
+.heading-sec-home span{
+  display: inline-block;
+  margin-right: 20px;
+  
+}
+
+.heading-sec-home a{
+  color: #999;
+}
+
+.three-imgs-aside{
+  width: 10%;
+  height: 370px;
+  
+}
+
+.input-for-show{
+  display: block;
+  width: 100%;
+  height: 112px;
+  border: 1px solid green;
+  float: left;
+  -webkit-appearance: none;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.ahmed-img-thing-to-sell-watch{
+  width: 37%;
+  height: 460px;
+  background-image: url(../images/watch.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  /* background-color: red; */
+  background-position: center;
+  margin-left: 10px;
+  position: relative;
+  cursor: zoom-in;
+}
+.ahmed-info-thing-to-sell-watch {
+width: 53%;
+height: 550px;
+/* background: rgba(128, 128, 128, 0.24); */
+}
+.ahmed-info-thing-to-sell-watch h4 {
+font-size: 25px;
+font-family: 'Poppins', sans-serif;
+}
+.testing h6 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  color: #ccc;
+}
+.testing{
+  width: 100%;
+  height: 25px;
+  background: white;
+  display: flex;
+  
+  margin-top: 15px;
+}
+.testing input{
+  display: none;
+}
+
+.testing label {
+  display: block;
+  cursor: pointer;
+  width: 20px;
+  height: 50%;
+  
+}
+.testing label:before {
+  content: '\f005' ;
+  font-family: fontAwesome;
+  position: relative;
+  display: block;
+  color:rgba(128, 128, 128, 0.226);
+}
+.testing label:after {
+  content: '\f005' ;
+  font-family: fontAwesome;
+  position: absolute;
+  display: block;
+  color: #FFC107;
+  top: 20%;
+  opacity: 0;
+  transition: 0.5s;
+  text-shadow: 0 2px 2px rgba(128, 128, 128, 0);
+  
+}
+.testing label:hover:after , .testing label:hover ~ label:after, .testing input:checked ~ label:after{
+  content: '\f005' ;
+  font-family: fontAwesome;
+  position: absolute;
+  display: block;
+  color: #FFC107;
+  top: 16.5%;
+  opacity: 1;
+  transition: 0.5s;
+  text-shadow: 0 2px 2px rgba(128, 128, 128, 0.144);
+  
+}
+.ahmed-img-thing-to-sell-watch:hover {
+  background-size: 250%;
+
+}
+.a-show-img-ifull-screen{
+  position: absolute;
+  bottom: 5%;
+  right: 10%;
+ 
+  padding: 5px 10px 5px 10px;
+  background: white;
+  color: #999;
+    box-shadow: 1px 1px 2px 2px rgba(128, 128, 128, 0.103);
+    border: 1px solid rgba(128, 128, 128, 0.267);
+}
+#one {
+  background-image: url(../images/watch.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#two {
+  background-image: url(../images/watch2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#three {
+  background-image: url(../images/watch3.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: #eeeeee;
+  position: relative;
+}
+.pny {
+  position: absolute;
+  width: 30px;
+  height: 31px;
+  background: white;
+  padding:4px 0px 5px 4px ;
+  top: 50.2%;
+  right: 87%;
+  cursor: pointer;
+
+}
+
+.input-for-show:checked ~ .ahmed-img-thing-to-sell-watch {
+  background-image: url(../images/ssss.jpg);
+}
+
+.some-info-and-le {
+  width: 100%;
+  height: 160px;
+  
+}
+.some-info-and-le p {
+  font-family: 'Poppins', sans-serif;
+  font-size:14px ;
+  color: #666666;
+}
+.an {
+  color: #666666;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+}
+
+
+.an a {
+ color: #666666;
+ text-decoration: none !important;
+ font-family: 'Poppins', sans-serif;
+ font-size: 14px;
+}
+.an a:hover {
+  color: green ;
+}
+
+.fv {
+  margin-top: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  color: #333;
+}
+.color-size-qty-btns {
+  width: 100%;
+  height: 60px;
+  
+  
+  
+}
+.nh {
+  margin-left: 22px !important;
+}
+.bh {
+  padding-left: 10px;
+  position: absolute;
+  right: 35%;
+  
+}
+.btn-pink {
+  border: 1px solid black;
+  /* padding: 8px 50px 8px 10px ; */
+  margin-left: 10px;
+  position: relative;
+  color: #999;
+    display: inline-block;
+   width: 140px;
+    line-height: 1.2;
+    white-space: nowrap;
+   overflow: hidden;
+    text-overflow: ellipsis;
+    border: 1px solid #d7d7d7;
+    padding: 8px 50px 8px 18px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+}
+
+.color-size-qty-btns span a{
+  font-family: 'Poppins', sans-serif;
+  color: #999;
+}
+.rig {
+  position: absolute;
+  right: -7%;
+  top:20%;
+}
+.rel {
+  position: relative;
+ bottom: 15px;
+ color: #333333 !important;
+ text-decoration: none !important;
+}
+
+.buttons-for-buy {
+  width: 100%;
+  height: 50px;
+  
+  
+}
+
+.btn-add-to-crd {
+  display: inline-block;
+  width: 32.5%;
+  height: 40px;
+  padding-top: 8px;
+  padding-left: 10px;
+  background-color: #a6c76c;
+   
+    color: white !important;
+    text-decoration: none !important;
+    box-shadow: 2px 2px 3px  gray;
+    border: 1px solid #a6c76c;
+}
+.btn-add-to-crdd{
+  display: inline-block;
+  width: 32.5%;
+  height: 40px;
+  padding-top: 8px;
+  padding-left: 20px;
+  background-color: white;
+    
+    color: #333333 !important;
+    text-decoration: none ;
+    font-size: 14px;
+    
+}
+.btn-add-to-crdd:hover {
+  color:  #a6c76c !important;
+}
+.pd-l {
+  color: green;
+}
+
+.somelinkssocial {
+  width: 100%;
+  height: 60px;
+  
+  position: relative;
+  margin-top: 20px;
+}
+
+.hr-top-f{
+  width: 100%;
+  height: 1px;
+  background: black;
+
+}
+.hr-top-f a{
+  font-size: 13px;
+ 
+}
+
+.hr-top-f h4 {
+  font-size: 14px;;
+  display: inline-block;
+ padding-top: 30px;
+ padding-right: 20px;
+}
+
+.font-s {
+  position: absolute;
+  font-size: 25px !important;
+  top: 32%;
+}
+
+.font-si {
+  position: absolute;
+  font-size: 25px !important;
+  right: 4%;
+  top: 32%;
+  
+}
+
+.mf {
+  padding-left: 120px;
+}
+
+
+
+
+
+
+.some-info-and-some-information {
+  width: 100%;
+  height: 400px;
+  /* background: rgba(128, 128, 128, 0.212); */
+
+}
+
+
+.header-some-info-for-des {
+  width: 100%;
+  height: 50px;
+  background: white;
+  /* border: 1px solid black; */
+  
+}
+
+.a-for-dec {
+  /* border: 1px solid black; */
+  display: inline-block;
+  width:200px;
+  height: 50px;
+  text-align: center;
+  padding-top: 17px;
+  text-decoration: none !important;
+  color: #333 !important;
+  
+}
+.a-for-decc {
+  border: 1px solid black;
+  display: inline-block;
+  width:76px;
+  height: 50px;
+  text-align: center;
+  padding-top: 17px;
+  text-decoration: none !important;
+  opacity: 0;
+  visibility: hidden;
+}
+.oh:after {
+  width: 100% !important;
+}
+.a-for-dec:after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 3px;
+  background: red;
+  margin-top: 8px;
+ 
+ transition: width 0.5s;
+}
+.a-for-dec:hover:after{
+  width: 100%;  
+}
+
+.infoooooo{
+  width: 100%;
+  height: 350px;
+  border: 1px solid black;
+  padding: 30px 0 0 0 ;
+}
+
+.infoooooo p {
+  font-family: 'PT Sans', sans-serif;
+  font-size:15px ;
+  color: #666;
+}
+
+.mo-info {
+  padding-left: 30px;
+  
+}
+
+
+
+
+.testo{
+  width: 100%;
+  height: 150px;
+  background: red;
+}
+
+
